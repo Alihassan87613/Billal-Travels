@@ -50,10 +50,10 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="@Html.ActionLink("Home","index","Home")">Home</a></li>
-						<li class="active"><a href="@Html.ActionLink("Home","about","Home")">about</a></li>
-						<li><a href="@Html.ActionLink("Home","services","Home")">services</a></li>
-						<li><a href="@Html.ActionLink("Home","contact","Home")">contact</a></li>
+						<li><a href="@Url.Action("index","Home")">Home</a></li>
+						<li class="active"><a href="@Url.Action("about","Home")">about</a></li>
+						<li><a href="@Url.Action("services","Home")">services</a></li>
+						<li><a href="@Url.Action("contact","Home")">contact</a></li>
 					</ul> <!-- /.nav -->
 			    </div><!-- /.navbar-collapse -->
 		  	</div><!-- /.container -->
